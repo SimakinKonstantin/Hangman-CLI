@@ -167,7 +167,7 @@ func (InitUI) ChooseWord(category string, categories map[string][]constants.Game
 // Запрашивает ввода пути к json со словами.
 // При пустом вводе берет Words.json.
 func (ui *InitUI) InputJSONPath() (string, error) {
-	_, err := fmt.Fprint(ui.writer, "Введите путь к json-файлу со словами: ")
+	_, err := fmt.Fprint(ui.writer, "Введите путь к json-файлу со словами либо будут выбраны слова по умолчанию: ")
 	if err != nil {
 		return "", err
 	}
