@@ -11,3 +11,12 @@
 * Игра завершается, когда слово угадано полностью или когда висельник полностью нарисован.
 * Количество попыток ограничено и должно быть указано в начале игры.
 * Для слова из каждой категории можно получить подсказку.
+
+## Скриншоты
+<img width="701" height="175" alt="image" src="https://github.com/user-attachments/assets/3ca1a5c2-ddc7-49e6-8b58-39ced830b0d4" />
+
+##
+<img width="507" height="276" alt="image" src="https://github.com/user-attachments/assets/49edebb7-4dbe-4b8a-b5f4-14612db9223a" />
+
+##
+<img width="131" height="24" alt="image" src="https://github.com/user-attachments/assets/203e588c-384c-4182-a3e6-1f6556f2ebea" />
