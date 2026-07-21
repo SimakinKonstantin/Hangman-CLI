@@ -3,7 +3,6 @@ package session
 import (
 	"encoding/json"
 	"fmt"
-	"log/slog"
 	"os"
 	"strings"
 
@@ -24,8 +23,6 @@ type Session struct {
 // Возвращет новый экземпляр Session.
 // В этой функции происходит инициализация сессии, когда выбираются категория слов, слово и уровень сложности.
 func NewSession() (Session, error) {
-	slog.Info("Начало инициализации сессии\n")
-
 	s := Session{}
 	initializingUI := ui.NewInitUI(os.Stdin, os.Stdout)
 
@@ -74,8 +71,6 @@ func NewSession() (Session, error) {
 
 // Контролирует игру, взаимодействуя с логикой и графическим интерфейсом игры.
 func (s Session) Run() error {
-	slog.Info("Начало игровой сессии\n")
-
 	attemptsLeft := constants.MaxErrors - s.gameLogic.GetErrorsCounter()
 
 	// Правильной ли была буква. Когда = false, показывается оставшееся кол-во попыток.
@@ -89,7 +84,6 @@ func (s Session) Run() error {
 
 	for {
 		if !continueGame {
-			slog.Info("Конец игры\n")
 			return nil
 		}
 
