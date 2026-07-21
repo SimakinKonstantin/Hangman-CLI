@@ -33,10 +33,10 @@
 Выполнить: `go run .\cmd\run\main.go`
 
 ## Скриншоты
-<img width="701" height="175" alt="image" src="https://github.com/user-attachments/assets/3ca1a5c2-ddc7-49e6-8b58-39ced830b0d4" />
+<img width="688" height="131" alt="image" src="https://github.com/user-attachments/assets/fbe03da5-ad24-4c69-8050-d0b27f518be5" />
 
 ##
-<img width="507" height="276" alt="image" src="https://github.com/user-attachments/assets/49edebb7-4dbe-4b8a-b5f4-14612db9223a" />
+<img width="422" height="208" alt="image" src="https://github.com/user-attachments/assets/dbf4afc3-87ff-4572-896b-44d2a57cc3c7" />
 
 ##
-<img width="131" height="24" alt="image" src="https://github.com/user-attachments/assets/203e588c-384c-4182-a3e6-1f6556f2ebea" />
+<img width="126" height="28" alt="image" src="https://github.com/user-attachments/assets/a6fea45b-1a18-4a64-bc74-d7295dc0422c" />
